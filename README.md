@@ -18,7 +18,7 @@
 
 # Programs
 
-### Simply add a hello world program in any language you want or any valid code you want :)
+### Simply add a Hello World program in any language you want or Any valid code you want :)
 
 ### Format of file must be **`YourName_helloworld.extension`**
 
@@ -41,5 +41,17 @@
 
 STEPS TO CONTRIBUTE IN THIS REPO
 ![](https://i.imgur.com/6KE3C1g.png)
+
+# Thanks to all Contributors
+
+#### Thanks a lot for spending your time.
+
+#
+
+<a href="https://github.com/SomSingh23/IIIT_PUNE_Hacktoberfest_2022/graphs/contributors">
+<img columns={4} src="https://contrib.rocks/image?repo=SomSingh23/IIIT_PUNE_Hacktoberfest_2022" />
+</a>
+
+#
 
 # Happy Hacking 💻
