@@ -2,13 +2,9 @@
 using namespace std;
 
 void solve() {
-    cout<<"Hello World!!\n";
+    cout<<"Hello World!!"<<endl;
 }
 
 int main() {
-    int tc=1;
-    //cin>>tc;
-    while (tc--) {
-        solve();
-    }
+    solve();
 }
