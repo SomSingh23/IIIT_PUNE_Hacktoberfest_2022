@@ -18,7 +18,7 @@
 
 # Programs
 
-### Simply add a hello world program in any language you want
+### Simply add a hello world program in any language you want or any valid code you want :)
 
 ### format of file must be **`YourName_helloworld.extension`**
 
