@@ -44,7 +44,7 @@ STEPS TO CONTRIBUTE IN THIS REPO
 
 # Thanks to all Contributors
 
-#### Thanks a lot for spending your time.
+#### Thanks a lot for spending your time 😀.
 
 #
 
