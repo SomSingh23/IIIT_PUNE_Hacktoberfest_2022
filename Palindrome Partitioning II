@@ -1,0 +1,45 @@
+class Solution {
+    public int minCut(String s) {
+        
+        int[] memo = new int[s.length()];
+        Arrays.fill(memo, -1);
+        
+        return solve(0, s, memo)-1;
+    }
+
+    private int solve(int i, String s, int[] memo){
+        
+        // base case
+        if(i == s.length()) return 0;
+        
+        if(memo[i] != -1) return memo[i];
+        
+        // main logic
+        String temp = "";
+        int min = Integer.MAX_VALUE;
+            
+        for(int k = i ; k < s.length() ; k++){
+            temp += s.charAt(k);    
+            if(isPalindrome(temp)){
+                min = Math.min(min, solve(k+1, s, memo));
+            }
+        }
+        
+        return memo[i] = min+1;
+    }
+    
+    private boolean isPalindrome(String s){
+        
+        int i = 0 ; 
+        int j = s.length()-1;
+        
+        while(i < j){
+            if(s.charAt(i) != s.charAt(j))
+                return false;
+            
+            i++;
+            j--;
+        }
+        return true;
+    }
+}
